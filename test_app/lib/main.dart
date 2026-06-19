@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               CategoryItem(title: 'Dessert', icon: Icons.cake),
             ],
 
-            animationType: AnimationType.scale,
+            animationType: AnimationType.none,
 
             selectedGradient: const LinearGradient(
               colors: [Colors.blue, Colors.purple],
